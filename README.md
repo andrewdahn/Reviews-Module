@@ -1,47 +1,21 @@
-# Reviews-Module
+# Abibas | Reviews-Module
 
-> Reviews module for Adidas website clone FEC
+> Reviews microservice for Adidas website clone FEC
 
-## Related Projects
+This repository contains a clone of the header, navbar, and live-search elements on Adidas.com, as they appeared in November 2018. These components are written as fully modular microservices, which can be seamlessly combined with other components to create a full Adidas.com product-page clone.
+
+## Tech Stack
+
+> React | Express | MongoDB | Amazon EC2, S3 | Docker
+
+## Other Microservices
 
 - https://github.com/team-barium/Nav-Bar-Module
 - https://github.com/team-barium/Suggestions-Module
+- https://github.com/team-barium/product-details-module
 
-## Table of Contents
+## Team Members
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> npm install, npm start, npm run build
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install
-npm install axios
-npm install body-parser
-npm install express
-npm install nodemon
-npm install @babel/core
-npm install @babel/preset-env
-npm install @babel/preset-react
-npm install babel-loader
-npm install react
-npm install react-dom
-npm install webpack
-npm install webpack-cli
-```
+Taylor Bantle (@tbantle22)
+Justin Choi (@jmkchoi)
+Gabriella Pernama (@gabriellapernama)
