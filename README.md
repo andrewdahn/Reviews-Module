@@ -2,7 +2,7 @@
 
 Reviews microservice clone for Adidas item product page website shown as of March 2019
 
-![](name-of-giphy.gif)
+![](demo.gif)
 
 ## Tech Stack
 
