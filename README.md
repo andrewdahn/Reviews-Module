@@ -2,6 +2,8 @@
 
 Reviews microservice clone for Adidas item product page website shown as of March 2019
 
+![](name-of-giphy.gif)
+
 ## Tech Stack
 
 > React | Express | MongoDB | Amazon EC2, S3 | Docker
@@ -14,10 +16,6 @@ npm run seed
 npm start
 npm run build
 ```
-
-## Demo
-
-![](demo.gif)
 
 ## Other Microservices
 
