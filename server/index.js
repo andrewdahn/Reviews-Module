@@ -15,16 +15,16 @@ app.use(cors());
 
 app.listen(port, () => console.log(`Listening on port ${port}.`));
 
-app.get('/reviews', (req, res) => {
-  let { id } = req.query;
+app.get('/reviews/:id', (req, res) => {
+  let { id } = req.params;
   Reviews.find({ review_id: id })
     .limit(2)
     .then(data => res.status(200).send(data))
     .catch(error => res.status(404).send(error));
 });
 
-app.get('/reviews/stats', (req, res) => {
-  let { id } = req.query;
+app.get('/reviews/:id/stats', (req, res) => {
+  let { id } = req.params;
   Reviews.find({ review_id: id })
     .then(data => res.status(200).send(data))
     .catch(error => res.status(404).end(error));
