@@ -7,12 +7,17 @@ Reviews microservice clone for Adidas item product page website shown as of Marc
 > React | Express | MongoDB | Amazon EC2, S3 | Docker
 
 ## Installation
+
 ```
 npm install
 npm run seed
 npm start
 npm run build
 ```
+
+## Demo
+
+![](demo.gif)
 
 ## Other Microservices
 
